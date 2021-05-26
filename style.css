@@ -173,9 +173,10 @@ html{
     text-align: justify;
     padding: 10px;
     border-radius: 15px;
-    background: linear-gradient(to top, rgb(255,45,45) 50% ,white, 50% );
+    background: linear-gradient(to top, rgb(178, 184, 131) 50% ,white, 50% );
     background-size: 100% 200%;
     background-color :all 0.5s ease;
+
 }
 .box img:hover{
     /* overflow:hidden; */
@@ -185,11 +186,12 @@ html{
   margin:0  -100% 0 -100%;
 }
 .box:hover{
+    opacity:.1;
     background-position:unset;
-    background-color: red;
-    color:red;
+    background-color: rgb(178, 184, 131);
+    color:rgb(178, 184, 131);
     border: none;
-    box-shadow: 0 0 20px rgb(255,45,45);
+    box-shadow: 0 0 20px rgb(178, 184, 131));
 }
 /* contact Section */
 #contact{
