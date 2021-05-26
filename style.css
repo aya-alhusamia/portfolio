@@ -12,7 +12,7 @@ html{
     justify-content: center;
     align-items:center ;
     background-color: rgba(0, 0,0, 0.5);
-    position: sticky;
+    position:sticky;
     top: 0;
 }
 .navbar ul{
@@ -175,11 +175,19 @@ html{
     border-radius: 15px;
     background: linear-gradient(to top, rgb(255,45,45) 50% ,white, 50% );
     background-size: 100% 200%;
-    transition: all .8s;
+    background-color :all 0.5s ease;
+}
+.box img:hover{
+    /* overflow:hidden; */
+    min-width:100px;
+  max-width:none;
+  height:100px;
+  margin:0  -100% 0 -100%;
 }
 .box:hover{
-    background-position: left bottom;
-    color: white;
+    background-position:unset;
+    background-color: red;
+    color:red;
     border: none;
     box-shadow: 0 0 20px rgb(255,45,45);
 }
